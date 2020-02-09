@@ -24,3 +24,8 @@ div.weather-today {
     border: 2px solid lightslategrey;
     padding: 15px;
 }
+
+div.current-day-top {
+    font-size: 40px;
+    font-weight: bold;
+};
