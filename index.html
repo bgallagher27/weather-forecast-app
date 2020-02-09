@@ -17,20 +17,21 @@
 
     <!--Link to fontawesome-->
     <script src="https://kit.fontawesome.com/b455840bde.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-
+    
     <!--Total page header-->
     <nav class="row header">
         <div class="col-sm-12">
             <h1>Weather Dashboard</h1>
         </div>
     </nav>
-
+    
     <!--Weather content-->
     <div class="container">
         <div class="row">
-
+            
             <!--Side panel with search-->
             <div class="search-panel col-sm-12 col-md-5 col-lg-4">
                 <div class="search-bar">
@@ -40,19 +41,19 @@
                         <span type="submit" class="search-btn btn btn-primary">Search</span>
                     </form>
                 </div>
-
+                
                 <br>
                 <h4>Search History:</h4>
                 <div class="search-history">
                     <!--Space to populate search history-->
                 </div>
             </div>
-
+            
             <!--Main display for current day-->
             <div class="jumbotron col-sm-12 col-md-9 col-lg-8">
                 <div class="weather-today">
                     <div class="current-day-top">
-                        <span class="city-name">city</span><span> </span><span class="date">date</span>
+                        <h2 class="city-name">city</span><span> </span><span class="date">date</span></h2>
                     </div>
                     <br>
                     <div>
@@ -71,7 +72,7 @@
                         <p class="current-UV">UV Index: <span id="today-UV"></span></p>
                     </div>
                 </div>
-
+                
                 <br>
                 <!--5 day forecast-->
                 <div class="row">
@@ -108,13 +109,16 @@
                 </div>
             </div>
         </div>
-
+        
         <!--5 day forecast-->
     </div>
     
-
-
-
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="moment.js"></script>
     <script src="assets/weather.js"></script>
 </body>
 </html>
